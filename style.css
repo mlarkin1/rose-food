@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.2%;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.container{
+  max-width: 110rem;
+  margin: auto;
+}
+
+.header-container {
+  margin-top: 4.8rem;
+  margin-bottom: 20.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-menu {
+  margin-left: auto;
+}
+
+.header-img-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.header-img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  gap: 3.2rem;
+  align-items: center;
+  
+}
+
+
+.header-list li a:link, .header-list li a:visited {
+
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(32, 30, 30);
+  
+}
+
+.header-list li a:hover, .header-list li a:active {
+  text-decoration: underline;
+  color: #ea860d;
+}
+
+.header-list li:last-child {
+  background-color:#ea860d ;
+  padding: .8rem 1.6rem;
+  border-radius: 1.2rem;
+  align-self: center;
+  transition: all 0.5s;
+}
+
+
+
+.header-list li:last-child:hover{
+  background-color: #ff0000ce;
+}
+.header-list li:last-child a {
+  text-decoration: none;
+  color: #fff;   
+}
+
+/* MAIN SECTION */
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.steps-headline {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #ea860d;
+  margin-bottom: 5.6rem;
+}
+
+.steps-number {
+  font-size: 5.6rem;
+  color: #ddd;
+}
+
+.steps-heading {
+  margin-bottom: 3.2rem;
+  font-size: 2.4rem;
+
+}
+
+.steps-details li {
+  list-style: none;
+  margin-bottom: 1.6rem;
+  font-size: 2.0rem;
+
+}
+
+.steps-img {
+  width: 60%;
+  border-radius: 8px;
+}
+
+.steps-img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.steps-section-box {
+  /* gap: 3.2rem; */
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20rem;
+}
+
+.adding-beans-img {
+  width: 70%;
+  border-radius: 8px;
+
+}
+
+.simmering-img {
+  width: 80%;
+  border-radius: 8px;
+
+}
+
+.rose-head {
+  display: inline-block;
+  width: 8%;
+  border-radius: 50%;
+  margin-right: 1.2rem;
+}
+
+.us-img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+
+
