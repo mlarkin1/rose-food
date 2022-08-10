@@ -54,14 +54,17 @@ h2 {
 
 
 .header-list li a:link, .header-list li a:visited {
-
-  font-size: 1.5rem;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 1.2rem;
+  font-size: 1.2rem;
   text-decoration: none;
   color: rgb(32, 30, 30);
-  
+  background: none;
 }
 
 .header-list li a:hover, .header-list li a:active {
+  background:#eee;
   text-decoration: underline;
   color: #ea860d;
 }
@@ -77,8 +80,14 @@ h2 {
 
 
 .header-list li:last-child:hover{
-  background-color: #ff0000ce;
+  background-color: #ffbf00ce;
 }
+
+.header-list li:last-child a:hover {
+  background: none;
+
+}
+
 .header-list li:last-child a {
   text-decoration: none;
   color: #fff;   
@@ -158,6 +167,15 @@ h2 {
 .us-img {
   width: 30%;
   border-radius: 50%;
+}
+
+.header-img-box::after {
+  content: "";
+  width: 9.6rem;
+  padding: 15%;
+  background-color: #ea860d;
+  border-radius: 50%;
+
 }
 
 
